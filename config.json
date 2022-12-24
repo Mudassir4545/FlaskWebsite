@@ -1,0 +1,13 @@
+{
+  "params":
+  {
+    "local_server": "mysql://root:@localhost/assignment_portfolio",
+    "gh_url": "https://github.com/MudassirAltaf",
+    "fb_url": "https://www.facebook.com/profile.php?id=100011760107114",
+    "tw_url": "https://twitter.com/Mudassir3876159",
+    "li_url": "https://www.linkedin.com/in/mudassir-altaf-data-science-machine-learning-deep-learning/",
+    "gmail_id": "mudassiraltaf405@gmail.com",
+    "gmail_password": "Malikriaz495"
+
+  }
+}
