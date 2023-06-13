@@ -4,13 +4,14 @@ from datetime import datetime
 import json
 from flask_mail import Mail
 
+
 with open("config.json","r") as c:
     para= json.load(c)
     params = para["params"]
 
 app = Flask(__name__)
    
-)
+
 
 
 @app.route('/layout')
@@ -25,4 +26,4 @@ def blog_single():
 @app.route('/')
 def index():
     return render_template('index.html',params=params)
-app.run(debug=True)
+app.run()
